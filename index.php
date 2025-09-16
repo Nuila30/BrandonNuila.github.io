@@ -9,6 +9,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+<!-- Modal para imágenes -->
+<div id="imgModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImg">
+  <div id="caption"></div>
+</div>
 
   <!-- ======= Navegación ======= -->
   <header>
@@ -53,10 +59,11 @@
         <li>Reportes de libros desactivados y más prestados</li>
       </ul>
       <div class="gallery">
-        <img src="img/biblioteca1.png" alt="Vista del Sistema de Biblioteca">
-        <img src="img/biblioteca2.png" alt="Préstamos de libros">
-      </div>
-      <a href="https://github.com/tuusuario/sistema-biblioteca" class="btn" target="_blank">Ver en GitHub</a>
+  <img src="img/SIS_B.png" alt="Vista del Sistema de Biblioteca" class="clickable-img">
+  <img src="img/SIS_B_2.png" alt="Préstamos de libros" class="clickable-img">
+</div>
+
+      <a href="https://github.com/Nuila30" class="btn" target="_blank">Ver en GitHub</a>
     </div>
 
     <!-- Proyecto Sistema QR -->
@@ -70,10 +77,10 @@
         <li>Pantalla duplicada para TV, estilo tablero tipo banco</li>
       </ul>
       <div class="gallery">
-        <img src="img/qr1.png" alt="Vista del Sistema QR">
-        <img src="img/qr2.png" alt="Pantalla duplicada en TV">
+        <img src="img/SIS_QR.png" alt="Vista del Sistema QR" class="clickable-img">
+        <img src="img/SIS_QR_2.png" alt="Pantalla duplicada en TV" class="clickable-img">
       </div>
-      <a href="https://github.com/tuusuario/sistema-qr" class="btn" target="_blank">Ver en GitHub</a>
+      <a href="https://github.com/Nuila30" class="btn" target="_blank">Ver en GitHub</a>
     </div>
   </section>
 
